@@ -1,0 +1,12 @@
+#   this file is made to apply universal configurations
+#   to make the project work regardless of the OS and
+#   editor (sublime, vscode) the team member uses
+
+root = true
+
+[*]
+indent_style = space 
+indent_size = 2 #every identation rule start with 2 unit (in this case: space - defined above)
+charset = utf-8    
+trim_trailing_whitespace = true #removes blank spaces at the end of every line
+insert_final_newline = true #adds a blank line to the end of every file to make it easy to add a new line of code
